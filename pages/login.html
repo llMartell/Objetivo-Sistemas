@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - TaskMind</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/TaskMind-bg.png" alt="TaskMind" height="70" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="beneficios.html">Benefícios</a></li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Planos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="planos.html">Plano Equilibrium</a></li>
+              <li><a class="dropdown-item" href="planos.html">Plano Zen Master</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="planos.html">Plano Starter</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Acesse agora</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card p-4 shadow-sm" style="max-width: 400px; width: 100%;">
+      <h2 class="mb-4 text-center">Login</h2>
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com" required />
+        </div>
+        <div class="mb-3">
+          <label for="senha" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" required />
+        </div>
+        <a href="index.html" class="btn btn-primary w-100">Entrar</a>
+      </form>
+      <p class="mt-3 text-center">Não tem conta? <a href="planos.html">Assine um plano grátis</a></p>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light py-3 text-center">
+    <div class="container">
+      <small>© 2025 TaskMind - Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

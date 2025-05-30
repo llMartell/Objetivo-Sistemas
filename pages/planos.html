@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Planos - TaskMind</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/TaskMind-bg.png" alt="TaskMind" height="70" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="beneficios.html">Benefícios</a></li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Planos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="planos.html">Plano Equilibrium</a></li>
+                  <li><a class="dropdown-item" href="planos.html">Plano Zen Master</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="planos.html">Plano Starter</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+              <li class="nav-item"><a class="nav-link" href="login.html">Acesse agora</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <main class="container py-5">
+    <h1 class="mb-4 text-center">Nossos Planos</h1>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card p-4 shadow-sm h-100">
+          <h3>Plano Starter</h3>
+          <h4 class="text-primary">Grátis</h4>
+          <ul>
+            <li>Funcionalidades limitadas</li>
+            <li>Acesso básico ao gerenciador de tarefas</li>
+            <li>Suporte via FAQ</li>
+          </ul>
+          <a href="registro.html" class="btn btn-outline-primary mt-3">Assinar Starter</a>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card p-4 shadow-sm h-100">
+          <h3>Plano Equilibrium</h3>
+          <h4 class="text-primary">R$ 14,90 / mês</h4>
+          <ul>
+            <li>Acesso completo às funcionalidades</li>
+            <li>Relatórios semanais de produtividade</li>
+            <li>Alertas personalizados</li>
+          </ul>
+          <a href="login.html" class="btn btn-primary mt-3">Assinar Equilibrium</a>
+        </div>
+      </div>
+      
+      <div class="col-md-4">
+        <div class="card p-4 shadow-sm h-100">
+          <h3>Plano Zen Master</h3>
+          <h4 class="text-primary">R$ 24,90 / mês</h4>
+          <ul>
+            <li>Coaching digital personalizado</li>
+            <li>Todos os benefícios do Equilibrium</li>
+            <li>Suporte prioritário</li>
+          </ul>
+          <a href="login.html" class="btn btn-primary mt-3">Assinar Zen Master</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light py-3 text-center">
+    <div class="container">
+      <small>© 2025 TaskMind - Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

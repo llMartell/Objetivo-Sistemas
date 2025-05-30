@@ -1,0 +1,43 @@
+/* style.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Custom Navbar style */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Hero styling */
+.hero {
+  background: linear-gradient(135deg, #1f6b79 30%, #25fcea 100%), url('img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 6rem 1rem;
+  text-align: center;
+}
+
+/* Cards Section */
+.card-custom {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 0.75rem;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #ddd;
+}
